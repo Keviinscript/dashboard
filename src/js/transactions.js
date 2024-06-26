@@ -338,14 +338,14 @@
                                 </div>
                             </div>
                             <div class="col-span-3 justify-self-start space-y-1">
-                                <h2 class="text-base whitespace-nowrap font-semibold tracking-tight text-gray-800"> ${t.narration}</h2>
-                                <p class="text-xs font-extralight text-gray-700 ">${
+                                <h2 class="text-sm whitespace-nowrap font-semibold tracking-tight text-gray-800"> ${t.narration}</h2>
+                                <p class="text-xs tracking-wide font-extralight text-gray-700 ">${
                                   t.date
                                 },${t.time}</p>
                             </div>
                             <div>
                                 <div class="space-y-1">
-                                    <h2 class="font-semibold text-base ${
+                                    <h2 class="font-semibold text-sm ${
                                       t.type === "deposit"
                                         ? `text-green-800 pr-0 pl-0`
                                         : `text-gray-800 pr-0 pl-0`
