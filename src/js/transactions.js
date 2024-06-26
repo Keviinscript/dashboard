@@ -348,7 +348,7 @@
                                     <h2 class="font-semibold text-base ${
                                       t.type === "deposit"
                                         ? `text-green-800 pr-0 pl-0`
-                                        : `text-gray-800 pr-0 pl-0`
+                                        : `text-gray-800 pr-2 pl-0`
                                     }  tracking-tight ">
                                     ${t.type === "deposit" ? "+" : "-"}$${t.amount}
                                     
