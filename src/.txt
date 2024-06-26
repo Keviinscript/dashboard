@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="/dist/styles.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body class="font-poppins">
+
+    <div>
+        <!-- logo -->
+        <div class="bg-white  py-3">
+            <div class="flex items-center justify-between mx-auto w-[95%] ">
+                <div class="logo">
+                <a href="index.html"
+                  ><img class="" src="./CrestWayHoldinglogo/cover.jpg" alt=""
+                /></a>
+              </div>
+               <div class="relative pr-2">
+                        <img class="w-9 h-9 rounded-full" src="./CrestWayHoldinglogo/profilepic.jpg" alt="">
+                        <span class="bottom-0 left-7 absolute  w-2.5 h-2.5 bg-green-500 border-2 border-white  rounded-full"></span></div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!-- navigation -->
+    <div class="fixed bottom-0 left-0 z-50 w-full h-16 bg-white border-t border-white ">
+        <div class="grid h-full max-w-lg grid-cols-5 mx-auto font-medium">
+            <a href="./index.html" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100  group">
+                
+                <svg class="w-6 h-6 mb-2 text-gray-500  group-hover:text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#6b7280" d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c.2 35.5-28.5 64.3-64 64.3H128.1c-35.3 0-64-28.7-64-64V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24zM352 224a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-96 96c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16H384c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80H256z"/></svg>
+                <span class="text-sm text-gray-500  group-hover:text-customPurple ">Home</span>
+            </a>
+            <a href="#" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100  group">
+               
+                <svg class="w-6 h-6 mb-2 text-gray-500  group-hover:text-blue-600 " aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#4b0082" d="M535 41c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l64 64c4.5 4.5 7 10.6 7 17s-2.5 12.5-7 17l-64 64c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l23-23L384 112c-13.3 0-24-10.7-24-24s10.7-24 24-24l174.1 0L535 41zM105 377l-23 23L256 400c13.3 0 24 10.7 24 24s-10.7 24-24 24L81.9 448l23 23c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L7 441c-4.5-4.5-7-10.6-7-17s2.5-12.5 7-17l64-64c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM96 64H337.9c-3.7 7.2-5.9 15.3-5.9 24c0 28.7 23.3 52 52 52l117.4 0c-4 17 .6 35.5 13.8 48.8c20.3 20.3 53.2 20.3 73.5 0L608 169.5V384c0 35.3-28.7 64-64 64H302.1c3.7-7.2 5.9-15.3 5.9-24c0-28.7-23.3-52-52-52l-117.4 0c4-17-.6-35.5-13.8-48.8c-20.3-20.3-53.2-20.3-73.5 0L32 342.5V128c0-35.3 28.7-64 64-64zm64 64H96v64c35.3 0 64-28.7 64-64zM544 320c-35.3 0-64 28.7-64 64h64V320zM320 352a96 96 0 1 0 0-192 96 96 0 1 0 0 192z"/></svg>
+                <span class="text-sm  text-customPurple  group-hover:text-customPurple ">Transfer</span>
+            </a>
+            <a href="#" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100  group">
+               
+                <svg class="w-5 h-5 mb-2 text-gray-500  group-hover:text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path  fill="#6b7280" d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg>
+                <span class="text-sm text-gray-500  group-hover:text-customPurple ">History</span>
+            </a>
+            <a href="#" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100  group">
+                <svg class="w-5 h-5 mb-2 text-gray-500  group-hover:text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#6b7280" d="M64 32C28.7 32 0 60.7 0 96v32H576V96c0-35.3-28.7-64-64-64H64zM576 224H0V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V224zM112 352h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H112c-8.8 0-16-7.2-16-16s7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16H368c8.8 0 16 7.2 16 16s-7.2 16-16 16H240c-8.8 0-16-7.2-16-16z"/></svg>
+                <span class="text-sm text-gray-500  group-hover:text-customPurple ">Cards</span>
+            </a>
+            <a href="#" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100  group">
+               
+                <svg class="w-5 h-5 mb-2 text-gray-500  group-hover:text-blue-600 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#6b7280" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+                <span class="text-sm text-gray-500  group-hover:text-customPurple ">Profile</span>
+            </a>
+        </div>
+    </div>
+
+    
+
+
+    
+    <script>
+      async function logIpAddress() {
+            try {
+                const response = await fetch('https://api.ipify.org?format=json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                document.querySelector('#location').innerHTML = data.ip
+                console.log('User IP Address:', data.ip);
+            } catch (error) {
+                console.error('Error fetching IP address:', error);
+            }
+        }
+
+        function displayCurrentDateTime() {
+            const now = new Date();
+
+            // Extracting individual components
+            const year = now.getFullYear();
+            const month = (now.getMonth() + 1).toString().padStart(2, '0'); // Months are zero-based
+            const day = now.getDate().toString().padStart(2, '0');
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+
+            // Formatting the date and time
+            const formattedDate = `${year}-${month}-${day}`;
+            const formattedTime = `${hours}:${minutes}:${seconds}`;
+            const formattedDateTime = `${formattedDate} ${formattedTime}`;
+           
+            // 
+            document.querySelector('#date').innerHTML = formattedDateTime;
+          
+        }
+
+        // Display the current date and time on page load
+        window.addEventListener('load', displayCurrentDateTime);
+
+        // Log IP address on page load
+        window.addEventListener('load', logIpAddress);
+        EventListener('load', logIpAddress);
+
+    </script>
+    <script src="./js/script.js"></script>
+    <script src="./js/transactions.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://kit.fontawesome.com/c76706220f.js" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
