@@ -338,32 +338,34 @@
                                 </div>
                             </div>
                             <div class="col-span-3 justify-self-start space-y-1">
-                                <h2 class="text-sm whitespace-nowrap font-semibold tracking-tight text-gray-800"> ${t.narration}</h2>
-                                <p class="text-xs tracking-wide font-extralight text-gray-700 ">${
+                                <h2 class="text-sm whitespace-nowrap font-semibold tracking-tight text-gray-800"> ${
+                                  t.narration
+                                }</h2>
+                                <p class="text-xs whitespace-nowrap tracking-wide font-extralight text-gray-700 ">${
                                   t.date
                                 },${t.time}</p>
                             </div>
                             <div>
                                 <div class="space-y-1">
                                     <h2 class="font-semibold text-sm ${
-                                      t.type === "deposit"
+                                      t.type === 'deposit'
                                         ? `text-green-800 pr-0 pl-0`
                                         : `text-gray-800 pr-0 pl-0`
                                     }  tracking-tight ">
-                                    ${t.type === "deposit" ? "+" : "-"}$${t.amount}
+                                    ${t.type === 'deposit' ? '+' : '-'}$${
+              t.amount
+            }
                                     
                                     </h2>
                                     <div>
                                     ${
-                                      t.type === "deposit" ? 
-                                        `<p class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2 py-0.5 rounded   border border-green-400">
+                                      t.type === 'deposit'
+                                        ? `<p class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2 py-0.5 rounded   border border-green-400">
                                           Successful
                                         </p>`
-                                       : 
-                                        `<p class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded  border border-red-400">
+                                        : `<p class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded  border border-red-400">
                                           Failed
                                         </p>`
-                                      
                                     }
 
                                     </div>
